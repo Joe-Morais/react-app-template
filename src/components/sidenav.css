@@ -1,0 +1,23 @@
+.selected{
+    
+}
+
+#sidenav-parent {
+    display: flex; 
+    height: 100vh; 
+    overflow: scroll initial;   
+    background-color: rgb(35, 35, 35);}
+
+#sidenav {
+    color: #fff; 
+    background-color: rgb(19, 19, 19);
+    border-right: 0.5mm solid #5a5a5a;}
+
+#sidenav-menu{ color: rgb(0, 255, 38); } 
+
+#header-link { color: inherit }
+
+#footer { text-align: center }
+
+#footer-content{ padding: 20px 5px }
+
