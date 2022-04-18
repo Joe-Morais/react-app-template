@@ -22,10 +22,12 @@ const Sidenav = () => {
         </CDBSidebarHeader>
 
         <CDBSidebarContent className="sidenav-content">          
-          <CDBSidebarMenu id='sidenav-menu'>
+          <CDBSidebarMenu id='sidenav-menu'>          
 
-            <NavLink exact to="/" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
+            <NavLink exact={true} to="/" activeClassName="activeClicked" >
+              <CDBSidebarMenuItem icon="columns">
+                Dashboard
+              </CDBSidebarMenuItem>
             </NavLink>
 
             <NavLink exact to="/tables" activeClassName="activeClicked">
@@ -39,7 +41,7 @@ const Sidenav = () => {
             </NavLink>
 
             <NavLink exact to="/settings" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="cog">Settings</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem class='testactive' icon="cog">Settings</CDBSidebarMenuItem>
             </NavLink>
 
           </CDBSidebarMenu>

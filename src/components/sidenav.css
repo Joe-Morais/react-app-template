@@ -1,7 +1,3 @@
-.selected{
-    
-}
-
 #sidenav-parent {
     display: flex; 
     height: 100vh; 
@@ -20,4 +16,11 @@
 #footer { text-align: center }
 
 #footer-content{ padding: 20px 5px }
+
+.test{
+    background-color: red;
+}
+.testactive:active{
+    background-color: green !important;
+}
 
